@@ -1,4 +1,5 @@
  <!-- note to self "npm run deploy" to gh pages -->
+ PROJECT STARTED ON 3-29-2024
 ### To format the jsx file "npm run format" will format Prettier everything at once.
 # Tailwind Portfolio Project Conversion to ReactJS.
 
