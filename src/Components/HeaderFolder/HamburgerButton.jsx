@@ -1,5 +1,19 @@
 // eslint-disable-next-line no-unused-vars
-import React, { useState } from 'react';
+import React from 'react';
+import "./HamburgerButton.css";
+const initApp = () => {
+  const hamburgerBtn = document.getElementById('hamburger-button')
+  const mobileMenu = document.getElementById('mobile-menu')
+  
+  const toggleMenu = () => {
+      mobileMenu.classList.toggle('hidden')
+      mobileMenu.classList.toggle('flex')
+      hamburgerBtn.classList.toggle('toggle-btn')
+  }
+  hamburgerBtn.addEventListener('click', toggleMenu)
+  mobileMenu.addEventListener('click', toggleMenu)
+}
+document.addEventListener('DOMContentLoaded', initApp)
 
 const HamburgerButton = () => {
     return (
@@ -16,6 +30,8 @@ const HamburgerButton = () => {
              after:absolute after:h-1 after:w-8 after:-translate-x-0 after:translate-y-3 after:rounded
               after:bg-varLIGHTBLUEFEATHER after:transition-all after:duration-500 after:content-['']"
             style={{ right: "-1rem" }}
+
+            
           ></div>
         </div>
       </div>  
