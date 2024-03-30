@@ -41,4 +41,3 @@ const HamburgerButton = () => {
 };
 
 export default HamburgerButton;
-
