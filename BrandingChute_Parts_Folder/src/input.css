@@ -351,13 +351,7 @@ z-index: 2;
   font-family: noto serif;
 }
 
-  #headersection{
-    border: 2px solid #000000;
-    border-radius: 20px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-    z-index: 50;
-    
-  }
+ 
   #logoBody{
     font-size: 2rem;
     background: linear-gradient(to bottom, #002244, #8c8b8a, #ffffff);
@@ -607,9 +601,7 @@ z-index: 2;
     #mobile-menu2 {
       display: none;
     }
-    #header {
-      font-size: 20px;
-    }
+   
   }
    @media only screen and (max-width: 319px) {
 
