@@ -1,7 +1,8 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react';
+import React from "react";
+import HamburgerButton from "./HamburgerButton";
+import "./Header.css";
  
-import './Header.css';
 
 const Header = () => {
   return (
@@ -11,46 +12,37 @@ const Header = () => {
         className="Rye  sticky top-0 z-30 rounded-b bg-gradient-to-br from-varMEDDUCKHEAD to-varDARKWING"
       >
         <section className="HeaderSection mx-auto flex max-w-4xl items-center justify-between p-1">
-          <h1
-              className="HeaderH1 sm:hidden"
-          >
-            <span className="whitespace-nowrap font-rye text-[.24rem]">
+        < HamburgerButton />
+
+          <div className="border-2 border-transparent">
+          <h1 className="HeaderH1 sm:hidden">
+            <span className="font-rye  whitespace-nowrap text-[1.4rem] sm:text-[2rem] xxs:text-[1.6rem] xs:text-[1.8rem]  ">
               MyBabb Web Development
             </span>
           </h1>
-
-          <div>
-            <div
-              id="hamburger-button"
-              className="focus-outline-none relative h-8 w-10 cursor-pointer text-5xl sm:hidden"
-            >
-              <div
-                className="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8  before:-translate-x-0 before:-translate-y-3 before:rounded before:bg-varLIGHTBEAK before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-0 after:translate-y-3 after:rounded after:bg-varLIGHTBLUEFEATHER after:transition-all after:duration-500 after:content-['']"
-                style={{ right: '-1rem' }}
-              ></div>
-            </div>
           </div>
-
+         
           <nav
             id="aboutNav"
-            className="md: m-auto hidden space-x-8 pt-4 text-xl sm:block"
-            aria-label="main"
+            className="border-2 border-transparent w-full justify-center relative md: m-auto hidden  pt-4  sm:flex"
+            aria-label="Header"
           >
+             <div className="border-2 border-transparent  w-full relative justify-around flex   ">
             <a
               href="#AboutUs"
               className="text-varLIGHTBEAKTOP hover:text-varLIGHTWING active:text-varLIGHTBLUEFEATHER"
             >
               <div
                 className="whoopieCushion1"
-                style={{ display: 'inline', position: 'relative' }}
+                style={{ display: "inline", position: "relative" }}
                 data-tool-tip="I Make A Landing Page with Appeal and SEO Performance"
               >
                 <span
                   className=" font-rye"
                   style={{
-                    fontSize: '20px',
-                    whiteSpace: 'nowrap',
-                    textShadow: '2px 2px 3px #1c0303',
+                    fontSize: "20px",
+                    whiteSpace: "nowrap",
+                    textShadow: "2px 2px 3px #1c0303",
                   }}
                 >
                   About Us
@@ -64,15 +56,15 @@ const Header = () => {
             >
               <div
                 className="whoopieCushion2"
-                style={{ display: 'inline', position: 'relative' }}
+                style={{ display: "inline", position: "relative" }}
                 data-tool-tip="With Precision Coding Practices"
               >
                 <span
                   className="font-rye"
                   style={{
-                    fontSize: '20px',
-                    whiteSpace: 'nowrap',
-                    textShadow: '2px 2px 3px #1c0303',
+                    fontSize: "20px",
+                    whiteSpace: "nowrap",
+                    textShadow: "2px 2px 3px #1c0303",
                   }}
                 >
                   Improve SEO
@@ -86,46 +78,48 @@ const Header = () => {
             >
               <div
                 className="whoopieCushion2"
-                style={{ display: 'inline', position: 'relative' }}
+                style={{ display: "inline", position: "relative" }}
                 data-tool-tip="Refine Your Brand"
               >
                 <span
                   className=" font-rye"
                   style={{
-                    fontSize: '20px',
-                    whiteSpace: 'nowrap',
-                    textShadow: '2px 2px 3px #1c0303',
+                    fontSize: "20px",
+                    whiteSpace: "nowrap",
+                    textShadow: "2px 2px 3px #1c0303",
                   }}
                 >
                   Your Brand
                 </span>
               </div>
             </a>
+            </div>
           </nav>
-          <div className="absolute right-5">
+          <div className="relative sm:absolute  right-2 sm:right-8   ">
             <a href="index.html#crabs" className="text-3xl">
               🤿
             </a>
           </div>
+          
         </section>
 
         <section
           id="mobile-menu"
-          className="top-68 absolute hidden w-full origin-top animate-open-menu flex-col justify-center bg-black text-center font-orbitron text-4xl"
+          className="top-68 font-orbitron absolute hidden w-full origin-top animate-open-menu flex-col justify-center bg-black text-center text-4xl"
         >
           <h2
             className="sm:hidden"
             style={{
-              position: 'fixed',
-              margin: '0',
-              left: '50%',
-              top: '20px',
-              transform: 'translate(-50%, -50%)',
-              color: '#89d981',
-              marginBottom: '4rem',
+              position: "fixed",
+              margin: "0",
+              left: "50%",
+              top: "20px",
+              transform: "translate(-50%, -50%)",
+              color: "#89d981",
+              marginBottom: "4rem",
             }}
           >
-            <span className="whitespace-nowrap font-rye text-[.74rem]">
+            <span className="font-rye whitespace-nowrap text-[.74rem]">
               <u>Customized Websites</u>
             </span>
           </h2>

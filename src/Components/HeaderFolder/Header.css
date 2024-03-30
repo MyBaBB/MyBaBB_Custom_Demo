@@ -1,26 +1,25 @@
-#headersection{
-    border: 2px solid #000000;
-    border-radius: 20px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-    z-index: 50;
-    
-  }
-  #header {
-    z-index: 5400;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.12); 
-  }
-  #header {
-    font-size: 20px;
-  }
-  .header {
-    box-shadow:
-    'inset 0 0 10px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.1)',
-   } 
-   .HeaderH1 {
-              position: fixed;
-              margin: 0;
-              left: 50%;
-              top: 20px;
-              transform: translate(-50%, -50%);
-              color: #fca802;
-   }
+#headersection {
+  border: 2px solid #000000;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  z-index: 50;
+}
+#header {
+  z-index: 5400;
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.08),
+    0 2px 4px rgba(0, 0, 0, 0.12);
+}
+#header {
+  font-size: 20px;
+}
+.header {
+  box-shadow: "inset 0 0 10px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.1)";
+}
+.HeaderH1 {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  color: #fca802;
+}

@@ -47,6 +47,18 @@ export default {
 			   screens: {
 				 'widescreen': { 'raw': '(min-aspect-ratio: 3/2)' },
 				 'tallscreen': { 'raw': '(max-aspect-ratio: 13/20)' },
+                  xxs: '320px',
+				  xs: '420px',
+				  sm: '640px',
+				  md: '768px',
+				  lg: '1024px',
+				  xl: '1280px',
+				  xxl: '1536px',
+				  xxxl: '1920px',
+
+
+
+
 			   },
 		 
 			   keyframes: {
