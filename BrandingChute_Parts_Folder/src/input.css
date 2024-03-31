@@ -572,7 +572,18 @@ z-index: 2;
    
       /* xxxxxxxxxxxxxxxxxxxxxxx */   
         .toggle-btn {
-          @apply [&>div::before]:translate-y-0 [&>div::before]:rotate-45 [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div]:bg-transparent [&>div]:rotate-[720deg]
+          &>div::before {
+            transform: translateY(0);
+            transform: rotate(-45deg);
+          }
+          &>div::after {
+            transform: translateY(0);
+            transform: rotate(-45deg);
+          }
+          &>div {
+            background-color: transparent;
+            transform: rotate(720deg);
+          }
       }
 @keyframes rotateX {
     0% {
