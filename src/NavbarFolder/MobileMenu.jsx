@@ -1,91 +1,74 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react'
-import "./main.js"
+import React from "react";
+import "./MobileMenu.css";
 const MobileMenu = () => {
   return (
-    <div>
-      <section
-        id="mobile-menu"
-        className="top-68 absolute hidden w-full origin-top animate-open-menu flex-col 
-        justify-center bg-black text-center font-orbitron text-4xl"
+    <div 
+      className="top-68 absolute  w-full origin-top animate-open-menu flex-col 
+        justify-center bg-black text-center font-orbitron text-4xl ">
+      <h2
+        className="h2 sm:hidden fixed m-0 top-[25px] 
+        transform-[translate(-50%, -50%)] text-yellow-400 mb-[4rem]
+         Nosifer whitespace-nowrap text-[.74rem] xs:text-[1.74rem] 
+        left-1/2 top-6 transform -translate-x-1/2 -translate-y-1/2"
       >
-        <h2
-          className="sm:hidden"
-          style={{
-            position: 'fixed',
-            margin: 0,
-            left: '50%',
-            top: '20px',
-            transform: 'translate(-50%, -50%)',
-            color: '#89d981',
-            marginBottom: '4rem',
-          }}
-        >
-          <span className="whitespace-nowrap font-rye text-[.74rem]">
-            <u>Customized Websites</u>
-          </span>
-        </h2>
+        <span className="Nosifer whitespace-nowrap text-[.74rem] xs:text-[1.74rem]  ">
+          <u>Customized Websites</u>
+        </span>
+      </h2>
+      <nav
+        className=" flex min-h-screen flex-col items-center mt-[7rem]"
+        aria-label="mobile"
+      >
+        <p id="mobile-menu-2">
+          
+          <a
+            href="#hero"
+            className="mobileMenuWords "
+          >
+            Home
+          </a>
+          <br />
+          <br />
+          <a href="#AboutUs" className="w-full py-6 text-center">
+            <span className="mobileMenuWords">
+              About Us
+            </span>
+          </a>
+          <br />
+          <br />
+          <a
+            href="#YourBrand"
+            className="mobileMenuWords"
+          >
+            <span className="mobileMenuWords">
+              Your Brand
+            </span>
+          </a>
 
-        <button className="self-end px-6"></button>
-        <nav
-          className="justify-top flex min-h-screen flex-col items-center"
-          aria-label="mobile"
-        >
-          <p id="mobile-menu-2">
-            <br />
-            <a
-              href="#hero"
-              className="w-full py-2 text-center text-lime-600 hover:text-varLIGHTBLUEFEATHER"
-            >
-              Home
-            </a>
-            <br />
-            <br />
-            <a href="#AboutUs" className="w-full py-6 text-center">
-              <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                About Us
-              </span>
-            </a>
-            <br />
-            <br />
-            <a
-              href="#YourBrand"
-              className="white-space: nowrap; w-full py-6 text-center"
-            >
-              <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                Your Brand
-              </span>
-            </a>
-            {/* <br /><br />
-            <a href="brandform.html" className="w-full py-6 text-center">
-              <span className="whitespace-nowrap font-rye text-amber-700 hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                Branding Chute
-              </span>
-            </a>
-            */}
-            <br />
-            <br />
-            <a
-              href="https://mybabb.github.io/SEO-BEST_PRACTICES/"
-              className="w-full py-6 text-center"
-            >
-              <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                SEO Booster
-              </span>
-            </a>
-            <br />
-            <br />
-            <a href="#crabs" className="w-full py-6 text-center">
-              <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                <em>MyBaBB.com</em>
-              </span>
-            </a>
-            <br />
-            <br />
-          </p>
-        </nav>
-      </section>
+          <br />
+          <br />
+          <a
+            href="https://mybabb.github.io/SEO-BEST_PRACTICES/"
+            className="w-full py-6 text-center"
+          >
+            <span className="mobileMenuWords ">
+              SEO Booster
+            </span>
+          </a>
+          <br />
+          <br />
+          <a href="https://mybabb.com" className="w-full py-6 text-center">
+            <span className="mobileMenuWords">
+              <em>MyBaBB.com</em>
+            </span>
+          </a>
+          <br />
+          <br />
+        </p>
+      </nav>
     </div>
-)};
+  );
+};
 
-    export default MobileMenu
+export default MobileMenu;

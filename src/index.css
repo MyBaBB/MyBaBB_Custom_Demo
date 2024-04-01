@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  
   font-size: 62.5%;
+  background-color: darkslategrey;
 }
 
 @font-face {
@@ -98,6 +98,21 @@
 .holtwood_one_sc {
   font-family: "holtwood_one_sc";
 }
+
+:root {
+  font-size: 62.5%;
+  --background-color: white;
+  --text-color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: black;
+    --text-color: white;
+  }
+}
+
+
 @font-face {
   font-family: "orbitron";
   src: url(../GoogleFonts/Orbitron/Orbitron-VariableFont_wght.ttf);

@@ -4,6 +4,7 @@ import './Navbar.css';
 import NavbarLinks from './NavbarLinks';
 import MobileMenu from './MobileMenu';
  
+ 
 
 
 const Navbar = () => {
@@ -41,10 +42,12 @@ return (
           
         </nav>
         
-        <div className={menu_class}></div>
+        <div className={menu_class}>
+              <MobileMenu />
+        </div>
        
         <NavbarLinks />
-        <MobileMenu />
+        
 
 
 
