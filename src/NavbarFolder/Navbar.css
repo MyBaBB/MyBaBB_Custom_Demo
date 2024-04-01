@@ -34,12 +34,15 @@
     border-radius: 0.5em;
 }
 .menu {
-    width: 100%;
+    
+    width:85%;
     height: 100vh;
     background-color: rgba(135, 206, 250, 0.5);
     position: relative;
-    top:1;
+    top:  40px;
     z-index: 0;
+    
+    
 }
         /* ---------------Sliding Menu-------------- */
 
@@ -57,7 +60,7 @@
         transition: ease-in-out 0.5s;
         }    
    .burger-bar.clicked:nth-child(2) {
-       transform: scale(0.1);
+       transform: scale(0.0);
        transition: ease-in-out 0.5s;
     }
    

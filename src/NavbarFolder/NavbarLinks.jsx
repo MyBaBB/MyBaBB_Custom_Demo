@@ -3,11 +3,11 @@
 const NavbarLinks = () => {
     return (
         <div>
-            <header className="relative flex justify-center mt-[-2.85rem] sm:mt-[-.45rem] 
+            <header className="  hidden sm:block relative  justify-center mt-[-2.85rem] sm:mt-[-.45rem] 
               sm:justify-center border-2 border-transparent w-screen z-[10]
             ">
             
-                <section className="mybabb Rye w-fit    m-auto border-2 border-transparent z-[10]">
+                <section className="mybabb Rye w-fit    m-auto border-2 border-transparent z-[0]">
                     <h1 className="sm:hidden"                                           >
                         <span className="whitespace-nowrap font-rye text-[.74rem]">
                             MyBabb Web Development

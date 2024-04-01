@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import NavbarLinks from './NavbarLinks';
-
+import MobileMenu from './MobileMenu';
  
 
 
@@ -36,15 +36,15 @@ return (
                 <div className={burger_class} style={{ backgroundColor: 'white', boxShadow: 'inset 0 0 5px rgba(0, 0, 0, 0.5)' }}></div>
                 <div className={burger_class} style={{ backgroundColor: 'Blue', boxShadow: 'inset 0 0 5px rgba(0, 0, 0, 0.5)' }}></div>
             </div>
-            <NavbarLinks />
+           
             
           
         </nav>
         
         <div className={menu_class}></div>
        
-       
-
+        <NavbarLinks />
+        <MobileMenu />
 
 
 
