@@ -26,19 +26,19 @@ const [isMenuClicked, setIsMenuClicked] = useState(false)
  }
 
 return (
-    <div style={{ width: '100%', height: '100vh' }}>
+    <div className='navWrapper '>
+     
         
         <nav>
        
-            <div className='burger-menu sm:hidden' onClick={updateMenu} >
+            <div className='burger-menu sm:hidden ' onClick={updateMenu} >
                 <div className={burger_class} style={{ backgroundColor: 'red', boxShadow: 'inset 0 0 5px rgba(0, 0, 0, 0.5)' }}></div>
                 <div className={burger_class} style={{ backgroundColor: 'white', boxShadow: 'inset 0 0 5px rgba(0, 0, 0, 0.5)' }}></div>
                 <div className={burger_class} style={{ backgroundColor: 'Blue', boxShadow: 'inset 0 0 5px rgba(0, 0, 0, 0.5)' }}></div>
-                
             </div>
             <NavbarLinks />
             
-           
+          
         </nav>
         
         <div className={menu_class}></div>
