@@ -5,13 +5,19 @@ const MobileMenu = () => {
   return (
     <div
       className="hidden-square top-68   font-orbitron w-full origin-top animate-open-menu 
-        flex-col items-center justify-center bg-black text-center  "
+        flex-col items-center justify-center bg-black text-center"
+      style={{
+        boxShadow: "inset 0px 0px 10px rgba(0, 0, 0, 1)",
+      }}
     >
-      <div className="mx-4 mt-10 rounded-xl border-[1px] border-varLIGHTBLUEFEATHER border-l-transparent  border-r-transparent">
+      <div className="mx-4 mt-16 rounded-xl border-[1px] border-varMEDBLUEFEATHER border-l-transparent  border-r-transparent">
         <div className="border-[12px] border-black border-b-gray-800 border-l-transparent border-r-transparent   border-t-gray-800">
           <div
-            className="border-[1px] border-varLIGHTBLUEFEATHER   border-l-transparent  
-             border-r-transparent  bg-yellow-950"
+            className="customInset  border-[1px] border-black   border-l-transparent  
+             border-r-transparent  bg-yellow-950  "
+            style={{
+              boxShadow: "inset 0px 0px 20px rgba(0, 0, 0, 1)",
+            }}
           >
             <h2
               className="h2 transform-[translate(-50%, -50%)] relative 
@@ -31,14 +37,11 @@ const MobileMenu = () => {
         </div>
       </div>
       <nav
-        className=" mt-[4rem] flex min-h-screen flex-col items-center"
+        className=" mt-[3.75rem] flex min-h-screen flex-col items-center"
         aria-label="mobile"
       >
         <p id="mobile-menu-2">
-          <a href="#hero" className="mobileMenuWords ">
-            Home
-          </a>
-
+          <a href="#hero" className="mobileMenuWords ">Home</a>
           <hr
             className="m-auto my-4
  h-[3.5px] w-[50%] border-[1px] border-blue-400 border-l-transparent border-r-transparent bg-yellow-950 "
