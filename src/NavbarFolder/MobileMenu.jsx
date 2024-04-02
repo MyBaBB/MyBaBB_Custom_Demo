@@ -21,7 +21,7 @@ const MobileMenu = () => {
           >
             <h2
               className="h2 transform-[translate(-50%, -50%)] relative 
-        left-1/2  top-[25px] m-0
+        left-1/2  top-[22px] xs:top-[27px] m-0
          mb-5 -translate-x-1/2 -translate-y-1/2 transform 
         whitespace-nowrap  text-blue-200 sm:hidden 
         "
@@ -29,7 +29,7 @@ const MobileMenu = () => {
                 textShadow: "2px 2px 4px rgba(0, 0, 0, 1)",
               }}
             >
-              <span className="Kingthings whitespace-nowrap text-[2.5rem] xs:text-[3rem]  ">
+              <span className="Kingthings whitespace-nowrap text-[2.2rem] xs:text-[3rem]  ">
                 Customized Websites
               </span>
             </h2>
