@@ -112,7 +112,6 @@
   }
 }
 
-
 @font-face {
   font-family: "orbitron";
   src: url(../GoogleFonts/Orbitron/Orbitron-VariableFont_wght.ttf);
@@ -123,7 +122,7 @@
 @font-face {
   font-family: "Sixtyfour";
   src: url(../GoogleFonts/SixtyFour/Sixtyfour-Regular-VariableFont_BLED\,SCAN.ttf);
-} 
+}
 .Sixtyfour {
   font-family: "Sixtyfour";
 }

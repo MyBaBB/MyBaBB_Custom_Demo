@@ -1,3 +1,4 @@
+
 .dataToolTip1:hover::before,
 .dataToolTip1:hover::after {
   --scale: 1;
@@ -5,6 +6,7 @@
 .dataToolTip1::before {
   content: "";
   background-color: #412a32;
+  color: gainsboro;
   bottom: 0.25rem;
   width: max-content;
   position: absolute;
@@ -12,10 +14,10 @@
   padding: 0.1em 0.1em 0.2em 0.1em;
   left: 50%;
   transform: translateX(-50%) scale(var(--scale));
-  transform-origin: top left;
+  transform-origin: center;
   transition: ease-in 0.25s;
-  bottom: -2.75rem;
-  border: 0.3px solid #fff9d7;
+  bottom: -3.80rem;
+  border: 0.3px solid  rgb(65 154 255);
   border-radius: 10px;
   color: fff9d7;
   padding-left: 2rem;
@@ -34,7 +36,7 @@
   left: 50%;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: bottom center;
-  transition: 0.35s;
+  transition: 0.25s;
   bottom: -1.75rem;
   border: 15px solid transparent;
   border-bottom: #cfa69d 10px solid;
@@ -48,6 +50,7 @@
 }
 .dataToolTip2::before {
   content: "";
+  color:gainsboro;
   background-color: #412a32;
   bottom: 0.25rem;
   width: max-content;
@@ -58,8 +61,8 @@
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: top center;
   transition: ease-in 0.25s;
-  bottom: -2.75rem;
-  border: 0.3px solid #fff9d7;
+  bottom: -3.85rem;
+  border: 0.3px solid  rgb(65 154 255);
   border-radius: 10px;
   color: fff9d7;
   padding-left: 2rem;
@@ -67,12 +70,7 @@
   --scale: 0;
   z-index: 3;
 }
-.navLinksWrapper {
-  width: 100%;
 
-  display: flex;
-  justify-content: flex-start;
-}
 .dataToolTip2::after {
   content: "";
   top: 0.4rem;
@@ -81,9 +79,9 @@
   position: absolute;
   padding: 0.1em 0.1em 0.2em 0.1em;
   left: 50%;
-  transform: translateX(-10%) scale(var(--scale));
+  transform: translateX(-50%) scale(var(--scale));
   transform-origin: bottom center;
-  transition: 0.35s;
+  transition: 0.25s;
   bottom: -1.75rem;
   border: 15px solid transparent;
   border-bottom: #cfa69d 10px solid;
@@ -91,6 +89,59 @@
   --scale: 0;
   z-index: 2;
 }
+.dataToolTip3:hover::before,
+.dataToolTip3:hover::after {
+  --scale: 1;
+}
+.dataToolTip3::before {
+  content: "";
+  background-color: #412a32;
+  color:gainsboro;
+  width: max-content;
+  position: absolute;
+  content: attr(data-tool-tip);
+  padding: 0.1em 0.1em 0.2em 0.1em;
+  left:0;
+  transform: translateX(-100%) scale(var(--scale));
+  transform-origin: top left;
+  transition: ease-in 0.25s;
+  bottom: -2.85rem;
+  border: 0.3px solid  rgb(65 154 255);
+  border-radius: 10px;
+  color: fff9d7;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  --scale: 0;
+  z-index: 3;
+  left: 14rem;
+}
+.dataToolTip3::after {
+  content: "";
+  top: 1.84rem;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding: 0.1em 0.1em 0.2em 0.1em;
+  left: 50%;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: bottom center;
+  transition: 0.25s;
+  bottom: -1.75rem;
+  border: 15px solid transparent;
+  border-bottom: #cfa69d 10px solid;
+  color: #fff9d7;
+  --scale: 0;
+  z-index: 2;
+}
+
+
+
 .mybabb {
   color: #fca802;
+}
+.navLinksWrapper {
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-start;
 }
