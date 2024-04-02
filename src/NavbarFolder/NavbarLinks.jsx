@@ -25,7 +25,7 @@ const NavbarLinks = () => {
             <a
               href="#AboutUs"
               className="text-blue-200 hover:text-varDARKBLUEFEATHER "
-               >
+            >
               <div
                 className="dataToolTip1 Libre_Baskerville "
                 style={{
@@ -41,7 +41,7 @@ const NavbarLinks = () => {
                   <div className="rounded-xl   border-[2px]  border-black">
                     <div
                       className="rounded-xl  border-[1px]  border-varLIGHTBLUEFEATHER
-             p-2 xxs:bg-gray-700 hover:bg-black"
+             p-2 hover:bg-black xxs:bg-gray-700"
                     >
                       <span
                         className="Aclonica "
@@ -78,7 +78,7 @@ const NavbarLinks = () => {
                   <div className="rounded-xl   border-[2px]  border-black">
                     <div
                       className="rounded-xl  border-[1px]  border-varLIGHTBLUEFEATHER
-             p-2 xxs:bg-gray-700 hover:bg-black"
+             p-2 hover:bg-black xxs:bg-gray-700"
                     >
                       <span
                         className="Aclonica"
@@ -115,11 +115,11 @@ const NavbarLinks = () => {
                   <div className="rounded-xl   border-[2px]  border-black">
                     <div
                       className="rounded-xl  border-[1px]  border-varLIGHTBLUEFEATHER
-             p-2 xxs:bg-gray-700 hover:bg-black"
+             p-2 hover:bg-black xxs:bg-gray-700"
                     >
                       <span
-                          className="Aclonica"
-                          style={{
+                        className="Aclonica"
+                        style={{
                           fontSize: "20px",
                           whiteSpace: "nowrap",
                           textShadow: "2px 2px 3px #1c0303",
@@ -133,14 +133,14 @@ const NavbarLinks = () => {
               </div>
             </a>
             <a
-               href="index.html#crabs" className="fixed top-2 -left-14 md:-left-28 lg:-left-40 xl:-left-60
-              text-varLIGHTBLUEFEATHER hover:text-varLIGHTWING "
+              href="index.html#crabs"
+              className="fixed -left-14 top-2 text-varLIGHTBLUEFEATHER hover:text-varLIGHTWING md:-left-28
+              lg:-left-40 xl:-left-60 "
             >
               <div
                 className="dataToolTip3 Libre_Baskerville"
                 style={{
                   top: "-2px",
-                
                 }}
                 data-tool-tip="Bottom of Page"
               >
@@ -151,39 +151,31 @@ const NavbarLinks = () => {
                   <div className="rounded-xl   border-[2px]  border-black">
                     <div
                       className="rounded-xl  border-[1px]  border-varLIGHTBLUEFEATHER
-             p-2 xxs:bg-gray-700 hover:bg-black"
+             p-2 hover:bg-black xxs:bg-gray-700"
                     >
                       <span
                         className="Aclonica"
                         style={{
-                          
-                          
                           textShadow: "2px 2px 3px #1c0303",
                         }}
                       >
                         <div className="   hidden sm:block  ">
-        
-        <TbScubaMask size={20}    className="text-blue-200 z-50 " />
-        
-      </div>
+                          <TbScubaMask
+                            size={20}
+                            className="z-50 text-blue-200 "
+                          />
+                        </div>
                       </span>
                     </div>
                   </div>
                 </div>
               </div>
-         </a>
+            </a>
           </nav>
 
           {/* xxxxxxxxxxxxxxxxxxxxxxxxxx new area with data tool tips above xxxxxxxxxxxxxxxxxxxxxxx */}
         </section>
       </header>
-
-
-
-     
-
-
-      
     </div>
   );
 };

@@ -5,47 +5,82 @@ const MobileMenu = () => {
   return (
     <div
       className="hidden-square top-68   font-orbitron w-full origin-top animate-open-menu 
-        flex-col items-center justify-center bg-black text-center text-4xl "
+        flex-col items-center justify-center bg-black text-center  "
     >
+ <div className="rounded-xl border-[1px] border-l-transparent border-r-transparent mt-10 mx-4  border-varLIGHTBLUEFEATHER">
+          <div className="border-l-transparent border-r-transparent border-t-gray-800 border-b-gray-800 border-[12px]   border-black">
+            <div
+              className="border-l-transparent border-r-transparent   border-[1px]  
+             border-varLIGHTBLUEFEATHER  bg-yellow-950"
+            > 
+      
       <h2
-        className="h2 transform-[translate(-50%, -50%)] Nosifer relative 
-        left-1/2 top-6 top-[25px] m-0
-         mb-[4rem] -translate-x-1/2 -translate-y-1/2 transform 
-        whitespace-nowrap text-[.74rem] text-yellow-400 sm:hidden xs:text-[1.74rem]"
+        className="h2 transform-[translate(-50%, -50%)] relative 
+        left-1/2  top-[25px] m-0
+         mb-5 -translate-x-1/2 -translate-y-1/2 transform 
+        whitespace-nowrap  text-blue-200 sm:hidden 
+        "
+        style={{
+          textShadow: "2px 2px 4px rgba(0, 0, 0, 1)",
+        
+        }}
       >
-        <span className="Nosifer whitespace-nowrap text-[.74rem] xs:text-[1.74rem]  ">
-          <u>Customized Websites</u>
+        <span className="Kingthings whitespace-nowrap text-[2.5rem] xs:text-[3rem]  ">
+          Customized Websites
         </span>
+
+       
       </h2>
+      </div></div></div>
       <nav
-        className=" mt-[7rem] flex min-h-screen flex-col items-center"
+        className=" mt-[4rem] flex min-h-screen flex-col items-center"
         aria-label="mobile"
       >
+
+
         <p id="mobile-menu-2">
+
+
+
           <a href="#hero" className="mobileMenuWords ">
             Home
           </a>
-          <br />
-          <br />
+
+<hr className="w-[50%] border-l-transparent
+ border-r-transparent my-4 m-auto h-[3.5px] border-[1px] border-blue-400 bg-yellow-950 "/>
+
+
+
+
           <a href="#AboutUs" className="w-full py-6 text-center">
             <span className="mobileMenuWords">About Us</span>
           </a>
-          <br />
-          <br />
+
+          <hr className="w-[50%] border-l-transparent
+ border-r-transparent my-4 m-auto h-[3.5px] border-[1px] border-blue-400 bg-yellow-950 "/>
+
+           
+
+
+
           <a href="#YourBrand" className="mobileMenuWords">
             <span className="mobileMenuWords">Your Brand</span>
           </a>
 
-          <br />
-          <br />
+          <hr className="w-[50%] border-l-transparent
+ border-r-transparent my-4 m-auto h-[3.5px] border-[1px] border-blue-400 bg-yellow-950 "/>
+
+
           <a
             href="https://mybabb.github.io/SEO-BEST_PRACTICES/"
             className="w-full py-6 text-center"
           >
             <span className="mobileMenuWords ">SEO Booster</span>
           </a>
-          <br />
-          <br />
+
+          <hr className="w-[50%] border-l-transparent
+ border-r-transparent my-4 m-auto h-[3.5px] border-[1px] border-blue-400 bg-yellow-950 "/>
+
           <a href="https://mybabb.com" className="w-full py-6 text-center">
             <span className="mobileMenuWords">
               <em>MyBaBB.com</em>

@@ -4,9 +4,16 @@
 
 :root {
   font-size: 62.5%;
-  background-color: darkslategrey;
+  background-color:black;
 }
 
+@font-face {
+  font-family: "Kingthings_Petrock";
+  src: url(../GoogleFonts/Kingthings-Petrock/Kingthings_Petrock.ttf);
+}
+.Kingthings {
+  font-family: "Kingthings_Petrock";
+}
 @font-face {
   font-family: "Creepster";
   src: url(../GoogleFonts/Creepster/Creepster-Regular.ttf);
