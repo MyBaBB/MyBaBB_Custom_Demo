@@ -4,10 +4,10 @@ import "./MobileMenu.css";
 const MobileMenu = () => {
   return (
     <div 
-      className="top-68 absolute  w-full origin-top animate-open-menu flex-col 
-        justify-center bg-black text-center font-orbitron text-4xl ">
+      className="hidden-square top-68   w-full origin-top animate-open-menu flex-col 
+        justify-center items-center bg-black text-center font-orbitron text-4xl ">
       <h2
-        className="h2 sm:hidden fixed m-0 top-[25px] 
+        className="h2 sm:hidden relative m-0 top-[25px] 
         transform-[translate(-50%, -50%)] text-yellow-400 mb-[4rem]
          Nosifer whitespace-nowrap text-[.74rem] xs:text-[1.74rem] 
         left-1/2 top-6 transform -translate-x-1/2 -translate-y-1/2"
