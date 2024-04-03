@@ -125,7 +125,7 @@
 }
 .dataToolTip3::after {
   content: "";
-  top: 1.84rem;
+  top: 1.9rem;
   width: 15px;
   height: 15px;
   position: absolute;
@@ -134,7 +134,7 @@
   transform: translateX(-35%) scale(var(--scale));
   transform-origin: bottom center;
   transition: 0.25s;
-  bottom: -1.75rem;
+ 
   border: 15px solid transparent;
   border-bottom: #cfa69d 10px solid;
   color: #fff9d7;
