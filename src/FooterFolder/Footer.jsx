@@ -1,10 +1,29 @@
 
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
+import './Footer.css'
+import '../NavbarFolder/NavbarLinks.css'
+import { MdOutlineScubaDiving } from "react-icons/md";
 import MybabbLogo from '../Assets/Images/mybabb-327x119px.jpg'
 const Footer = () => {
 return (
     <div     className='footerScreenWrapper absolute bottom-0 border-2 border-green-400    h-fit '>
+
+
+
+         <a href="#">
+         <div className='absolute bottom-8 left-16  w-[40px] h-[40px]'>
+
+
+            <MdOutlineScubaDiving size={40} className='text-blue-300 rotate-90' />
+            
+         </div>
+         </a>
+       
+
+
+
+
         <div className='FooterWrapper p-2 relative h-fit 
                    m-auto mb-0 flex  w-screen'>
         
@@ -39,7 +58,7 @@ return (
                 </div>
             </nav>
         </div>
-        
+       
         
     </div>
     </div>
