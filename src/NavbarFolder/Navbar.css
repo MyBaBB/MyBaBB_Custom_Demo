@@ -70,3 +70,13 @@
   transform: rotate(0) translate(0);
   transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
 }
+.hiddenH1 {
+  
+    position: fixed;
+    margin: 0 auto;
+    left: 50%;
+    top: 24px;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+ 
+}
