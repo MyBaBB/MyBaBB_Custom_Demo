@@ -23,8 +23,7 @@ const Navbar = () => {
   };
 
   return (
-    <div
-      className="navWrapper bg-gradient-to-b from-[rgba(84,84,84,1)] to-gray-900">
+    <div className="navWrapper bg-gradient-to-b from-[rgba(84,84,84,1)] to-gray-900">
       <nav>
         <div className="burger-menu sm:hidden " onClick={updateMenu}>
           <div
@@ -33,8 +32,7 @@ const Navbar = () => {
               backgroundColor: "red",
               boxShadow: "inset 0 0 5px rgba(0, 0, 0, 0.5)",
             }}
-            >
-          </div>
+          ></div>
           <div
             className={burger_class}
             style={{
@@ -51,16 +49,17 @@ const Navbar = () => {
           ></div>
         </div>
       </nav>
-      <h1
-        className="hiddenH1 sm:hidden">
-        <div    className="rounded-xl border-[1px] border-transparent  xxs:border-varLIGHTBLUEFEATHER">
-          <div  className="rounded-xl border-[2px] border-transparent  xxs:border-black">
+      <h1 className="hiddenH1 sm:hidden">
+        <div className="rounded-xl border-[1px] border-transparent  xxs:border-varLIGHTBLUEFEATHER">
+          <div className="rounded-xl border-[2px] border-transparent  xxs:border-black">
             <div
-                className="rounded-xl border-[1px] border-transparent  p-2
-                            xxs:border-varLIGHTBLUEFEATHER xxs:bg-gray-700" >
+              className="rounded-xl border-[1px] border-transparent  p-2
+                            xxs:border-varLIGHTBLUEFEATHER xxs:bg-gray-700"
+            >
               <span
                 className="Aclonica w-fit  whitespace-nowrap text-[14px] 
-                           text-blue-200   xs:text-3xl" >
+                           text-blue-200   xs:text-3xl"
+              >
                 MyBabb Web Development
               </span>
             </div>
@@ -70,7 +69,7 @@ const Navbar = () => {
       <div className={menu_class}>
         <MobileMenu />
       </div>
-        <NavbarLinks />
+      <NavbarLinks />
     </div>
   );
 };
