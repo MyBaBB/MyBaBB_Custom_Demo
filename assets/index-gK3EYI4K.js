@@ -55,7 +55,7 @@ Error generating stack: `+o.message+`
                           left-1/2  top-[22px] m-0 mb-5
                           -translate-x-1/2 -translate-y-1/2 transform whitespace-nowrap 
                           text-blue-200  sm:hidden xs:top-[27px] `,style:{textShadow:"2px 2px 4px rgba(0, 0, 0, 1)"},children:w.jsx("span",{className:`Kingthings whitespace-nowrap
-                               text-[2.2rem] xs:text-[3rem]`,children:"Customized Websites"})})})})}),w.jsx("nav",{className:" mt-[3.75rem] flex min-h-screen flex-col items-center","aria-label":"mobile",children:w.jsxs("p",{id:"mobile-menu-2",children:[w.jsx("a",{href:"#hero",className:"mobileMenuWords ",children:"Home"}),w.jsx("hr",{className:`m-auto my-4
+                           text-[2.2rem] xs:text-[3rem]`,children:"Customized Websites"})})})})}),w.jsx("nav",{className:" mt-[3.75rem] flex min-h-screen flex-col items-center","aria-label":"mobile",children:w.jsxs("p",{id:"mobile-menu-2",children:[w.jsx("a",{href:"#hero",className:"mobileMenuWords ",children:"Home"}),w.jsx("hr",{className:`m-auto my-4
                              h-[3.5px] w-[50%] border-[1px] border-blue-400 border-l-transparent
                              border-r-transparent bg-yellow-950 `}),w.jsx("a",{href:"#AboutUs",className:"w-full py-6 text-center",children:w.jsx("span",{className:"mobileMenuWords",children:"About Us"})}),w.jsx("hr",{className:`m-auto my-4
                              h-[3.5px] w-[50%] border-[1px] border-blue-400 border-l-transparent
