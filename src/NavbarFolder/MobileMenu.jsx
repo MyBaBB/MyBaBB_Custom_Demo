@@ -37,7 +37,7 @@ const MobileMenu = () => {
             >
               <span
                 className="Kingthings whitespace-nowrap
-                               text-[2.2rem] xs:text-[3rem]"
+                           text-[2.2rem] xs:text-[3rem]"
               >
                 Customized Websites
               </span>
@@ -46,6 +46,7 @@ const MobileMenu = () => {
         </div>
       </div>
       {/* xxxxxxxxxxxxxxxx⬆️  Customized Websites Logo  xxxxxxxxxxx */}
+      {/* xxxxxxxxxxxxxxxx⬇️  Buttons on Hidden Mobile Menu  xxxxxxxxxxx */}
 
       <nav
         className=" mt-[3.75rem] flex min-h-screen flex-col items-center"
@@ -95,6 +96,7 @@ const MobileMenu = () => {
           <br />
           <br />
         </p>
+             {/* xxxxxxxxxxxxxxxx⬆️  Buttons on Hidden Mobile Menu  xxxxxxxxxxx */}
       </nav>
     </div>
   );
