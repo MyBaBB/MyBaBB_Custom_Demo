@@ -13,6 +13,7 @@ module.exports = {
   settings: { react: { version: '18.2' } },
   plugins: ['react-refresh'],
   rules: {
+    "max-len": [1, 80], // Enforces max length of 80 characters
     'react/jsx-no-target-blank': 'off',
     'react-refresh/only-export-components': [
       'warn',
