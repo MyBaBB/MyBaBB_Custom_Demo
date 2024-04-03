@@ -1,10 +1,10 @@
 
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import MybabbLogo from '../Assets/Images/mybabb-327x119.jpg'
+import MybabbLogo from '../Assets/Images/mybabb-327x119px.jpg'
 const Footer = () => {
 return (
-    <div     className='footerScreenWrapper relative flex  h-screen '>
+    <div     className='footerScreenWrapper absolute bottom-0 border-2 border-green-400    h-fit '>
         <div className='FooterWrapper p-2 relative h-fit 
                    m-auto mb-0 flex  w-screen'>
         
@@ -39,6 +39,7 @@ return (
                 </div>
             </nav>
         </div>
+        
         
     </div>
     </div>
