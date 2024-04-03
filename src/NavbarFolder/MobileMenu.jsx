@@ -10,11 +10,17 @@ const MobileMenu = () => {
         boxShadow: "inset 0px 0px 10px rgba(0, 0, 0, 1)",
       }}
     >
-      <div className="mx-4 mt-16 rounded-xl border-[1px] border-varMEDBLUEFEATHER border-l-transparent  border-r-transparent">
-        <div className="border-[12px] border-black border-b-gray-800 border-l-transparent border-r-transparent   border-t-gray-800">
+      <div
+        className="mx-4 mt-16 rounded-xl border-[1px] border-varMEDBLUEFEATHER
+       border-l-transparent  border-r-transparent"
+      >
+        <div
+          className="border-[12px] border-black border-b-gray-800 
+        border-l-transparent border-r-transparent   border-t-gray-800"
+        >
           <div
-            className="customInset  border-[1px] border-black   border-l-transparent  
-             border-r-transparent  bg-yellow-950  "
+            className="customInset  border-[1px] border-black   
+            border-l-transparent border-r-transparent  bg-yellow-950  "
             style={{
               boxShadow: "inset 0px 0px 20px rgba(0, 0, 0, 1)",
             }}
@@ -29,7 +35,10 @@ const MobileMenu = () => {
                 textShadow: "2px 2px 4px rgba(0, 0, 0, 1)",
               }}
             >
-              <span className="Kingthings whitespace-nowrap text-[2.2rem] xs:text-[3rem]  ">
+              <span
+                className="Kingthings whitespace-nowrap
+               text-[2.2rem] xs:text-[3rem]  "
+              >
                 Customized Websites
               </span>
             </h2>
@@ -46,7 +55,8 @@ const MobileMenu = () => {
           </a>
           <hr
             className="m-auto my-4
- h-[3.5px] w-[50%] border-[1px] border-blue-400 border-l-transparent border-r-transparent bg-yellow-950 "
+               h-[3.5px] w-[50%] border-[1px] border-blue-400 border-l-transparent
+                border-r-transparent bg-yellow-950 "
           />
 
           <a href="#AboutUs" className="w-full py-6 text-center">
@@ -55,7 +65,8 @@ const MobileMenu = () => {
 
           <hr
             className="m-auto my-4
- h-[3.5px] w-[50%] border-[1px] border-blue-400 border-l-transparent border-r-transparent bg-yellow-950 "
+            h-[3.5px] w-[50%] border-[1px] border-blue-400 border-l-transparent
+             border-r-transparent bg-yellow-950 "
           />
 
           <a href="#YourBrand" className="mobileMenuWords">
@@ -64,7 +75,8 @@ const MobileMenu = () => {
 
           <hr
             className="m-auto my-4
- h-[3.5px] w-[50%] border-[1px] border-blue-400 border-l-transparent border-r-transparent bg-yellow-950 "
+               h-[3.5px] w-[50%] border-[1px] border-blue-400 border-l-transparent
+               border-r-transparent bg-yellow-950 "
           />
 
           <a
@@ -76,7 +88,8 @@ const MobileMenu = () => {
 
           <hr
             className="m-auto my-4
- h-[3.5px] w-[50%] border-[1px] border-blue-400 border-l-transparent border-r-transparent bg-yellow-950 "
+             h-[3.5px] w-[50%] border-[1px] border-blue-400 border-l-transparent 
+             border-r-transparent bg-yellow-950 "
           />
 
           <a href="https://mybabb.com" className="w-full py-6 text-center">

@@ -25,9 +25,8 @@ const Navbar = () => {
   return (
     <div
       className="navWrapper bg-gradient-to-b from-[rgba(84,84,84,1)] to-gray-900
-     "
-    >
-      {/* background: linear-gradient(to bottom, olive, rgb(62, 37, 9));         */}
+     ">
+      {/* background: linear-gradient(to bottom, olive, rgb(62, 37, 9)); */}
       <nav>
         <div className="burger-menu sm:hidden " onClick={updateMenu}>
           <div
@@ -36,7 +35,8 @@ const Navbar = () => {
               backgroundColor: "red",
               boxShadow: "inset 0 0 5px rgba(0, 0, 0, 0.5)",
             }}
-          ></div>
+            >
+          </div>
           <div
             className={burger_class}
             style={{
@@ -62,18 +62,15 @@ const Navbar = () => {
           top: "24px",
           transform: "translate(-50%, -50%)",
           textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-        }}
-      >
+        }} >
         <div className="rounded-xl border-[1px] border-transparent  xxs:border-varLIGHTBLUEFEATHER">
           <div className="rounded-xl border-[2px] border-transparent  xxs:border-black">
             <div
               className="rounded-xl border-[1px] border-transparent  p-2
-             xxs:border-varLIGHTBLUEFEATHER xxs:bg-gray-700"
-            >
+             xxs:border-varLIGHTBLUEFEATHER xxs:bg-gray-700" >
               <span
                 className="Aclonica w-fit  whitespace-nowrap text-[14px] 
-                 text-blue-200   xs:text-3xl"
-              >
+                 text-blue-200   xs:text-3xl" >
                 MyBabb Web Development
               </span>
             </div>
