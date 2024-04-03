@@ -96,7 +96,7 @@ const NavbarLinks = () => {
             >
               <div
                 className="dataToolTip3 Libre_Baskerville"
-                data-tool-tip="Bottom of Page"
+                data-tool-tip="To The Bottom"
               >
                 <div
                   className="inline-block rounded-xl  
