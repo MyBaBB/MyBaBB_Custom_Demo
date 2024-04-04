@@ -134,7 +134,7 @@
   transform: translateX(-35%) scale(var(--scale));
   transform-origin: bottom center;
   transition: 0.25s;
- 
+
   border: 15px solid transparent;
   border-bottom: #cfa69d 10px solid;
   color: #fff9d7;

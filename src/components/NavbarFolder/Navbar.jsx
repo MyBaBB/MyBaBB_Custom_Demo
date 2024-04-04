@@ -49,8 +49,8 @@ const Navbar = () => {
           ></div>
         </div>
       </nav>
-      <h1 className="hiddenH1 sm:hidden">
-        <div className="rounded-xl border-[1px] border-transparent  xxs:border-varLIGHTBLUEFEATHER">
+      <h1 className="hiddenH1 absolute sm:hidden">
+        <div className=" rounded-xl border-[1px] border-transparent  xxs:border-varLIGHTBLUEFEATHER">
           <div className="rounded-xl border-[2px] border-transparent  xxs:border-black">
             <div
               className="rounded-xl border-[1px] border-transparent  p-2
