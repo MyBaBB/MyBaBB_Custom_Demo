@@ -1,12 +1,15 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-
+import MybabbLogo from '../../Assets/mybabb-327x119px.jpg'
 const Tester = () => {
   return (
     <div className='flex justify-center items-center h-screen'>
-      <div className='greenBox relative flex w-fit h-fit m-auto bg-black border-2 border-green-400 rounded-2xl'>
-        <span className='relative text-white text-3xl Rye p-4'>Hello World</span>
-      </div>
+        {/* xxxxxxxxxxxxxxx Logo on center of footer xxxxxxxxx */}
+        <div className='footerCenterWrapper 
+        relative flex flex-col justify-center items-center 
+                      mx-2 m-auto w-fit p-4 h-[90px] text-center'>
+            <img id='scubaMask' src={MybabbLogo} alt="MyBaBB Logo" width={250} className='rounded-full' />
+        </div>
     </div>
   )
 }  
