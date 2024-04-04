@@ -2,11 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   font-size: 62.5%;
-  background-color: black;
+   
+ background: #000; 
 }
-
 @font-face {
   font-family: "Kingthings_Petrock";
   src: url(../GoogleFonts/Kingthings-Petrock/Kingthings_Petrock.ttf);
@@ -17,6 +18,13 @@
 @font-face {
   font-family: "Creepster";
   src: url(../GoogleFonts/Creepster/Creepster-Regular.ttf);
+}
+@font-face {
+  font-family: "chunkfive";
+  src: url(../GoogleFonts/chunkfive/ChunkFive-Regular.otf);
+} 
+.chunkFive {
+  font-family: "chunkfive";
 }
 .Creepster {
   font-family: "Creepster";
@@ -106,11 +114,7 @@
   font-family: "holtwood_one_sc";
 }
 
-:root {
-  font-size: 62.5%;
-  --background-color: white;
-  --text-color: black;
-}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -126,13 +130,8 @@
 .orbitron {
   font-family: "orbitron";
 }
-@font-face {
-  font-family: "Sixtyfour";
-  src: url(../GoogleFonts/SixtyFour/Sixtyfour-Regular-VariableFont_BLED\,SCAN.ttf);
-}
-.Sixtyfour {
-  font-family: "Sixtyfour";
-}
+
+
 @font-face {
   font-family: "Aclonica";
   src: url(../GoogleFonts/aclonica/Aclonica-Regular.ttf);
@@ -209,6 +208,13 @@
 }
 .Sansita {
   font-family: "Sansita";
+}
+@font-face {
+  font-family: "Sixtyfour";
+  src: url(../GoogleFonts/Sixtyfour/SixtyFour-Regular.ttf);
+}
+.Sixtyfour {
+  font-family: "Sixtyfour";
 }
 @font-face {
   font-family: "Yellowtail";

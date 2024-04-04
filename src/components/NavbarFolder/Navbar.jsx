@@ -23,7 +23,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navWrapper bg-gradient-to-b from-[rgba(84,84,84,1)] to-gray-900">
+    <div className="navWrapper relative bg-gradient-to-b from-[rgba(84,84,84,1)] to-gray-900">
       <nav>
         <div className="burger-menu sm:hidden " onClick={updateMenu}>
           <div

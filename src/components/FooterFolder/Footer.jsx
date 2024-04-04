@@ -4,18 +4,20 @@ import React from 'react'
 import './Footer.css'
 import '../NavbarFolder/NavbarLinks.css'
 import { MdOutlineScubaDiving } from "react-icons/md";
-import MybabbLogo from '../Assets/Images/mybabb-327x119px.jpg'
+import MybabbLogo from '../../Assets/mybabb-327x119px.jpg'
+
 const Footer = () => {
 return (
-    <div     className='footerScreenWrapper absolute bottom-0    h-fit '>
+    <div     className='footerScreenWrapper relative bottom-0    h-fit '>
 
 
 
          <a href="#">
-         <div className='absolute bottom-8 left-16  w-[40px] h-[40px]'>
+         <div className='fixed bottom-8 left-16  w-[40px] h-[40px] z-50'>
 
 
-            <MdOutlineScubaDiving size={40} className='text-blue-300 rotate-90' />
+            <MdOutlineScubaDiving size={40} className='scubaMan  text-blue-300  '
+            />
             
          </div>
          </a>
@@ -28,7 +30,7 @@ return (
                    m-auto mb-0 flex  w-screen'>
         
         {/* xxxxxxxxxxxxxxx address on left of footer xxxxxxxxx */}
-        <div className='footerLeftWrapper relative flex flex-col justify-center items-center 
+        <div className='footerLeftWrapper relative hidden sm:block flex-col justify-center items-center 
                      text-red-300 m-auto mx-2 mb-0 w-screen
                        h-[120px] text-center'>
             <address>
@@ -40,11 +42,11 @@ return (
         <div className='footerCenterWrapper relative flex flex-col justify-center items-center 
                       mx-2 m-auto mb-0 w-screen
                        h-[120px] text-center'>
-            <img src={MybabbLogo} alt="MyBaBB Logo" width={300} className='rounded-full' />
+            <img id='scubaMask' src={MybabbLogo} alt="MyBaBB Logo" width={150} className='rounded-full' />
         </div>
 
         {/* xxxxxxxxxxxxxxx UL on right of footer xxxxxxxxx */}
-        <div className='footerRightWrapper relative flex flex-col justify-center items-center 
+        <div className='footerRightWrapper relative  flex-col hidden sm:block justify-center items-center 
                      text-red-300   m-auto mb-0 mx-2 w-screen 
                        h-[120px] text-center '>
             <nav className='footerNavWrapper '>
