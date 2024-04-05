@@ -22,7 +22,7 @@ const Footer = () => {
                              sm:block md:m-auto md:space-x-[9rem] lg:space-x-[14rem] '>
                 <li className="FooterListItem4 hidden w-fit
                          border-[.5px] border-transparent sm:inline-block">
-                  {" "}
+                
                   <a
                     href="#YourBrand"
                     className="text-blue-200 hover:text-varDARKBLUEFEATHER ">
@@ -101,7 +101,7 @@ const Footer = () => {
                        data-tool-tip="Back To Top">
           <a href="#">
             <div
-              id="scubaMask"
+              id="toScubaMask"
                        className="absolute left-4 top-5 z-50 h-[fit] w-[fit] 
                                   rounded-xl border-[1px] border-varLIGHTBLUEFEATHER ">
               <div

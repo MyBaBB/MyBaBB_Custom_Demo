@@ -90,7 +90,7 @@ const NavbarLinks = () => {
               </div>
             </a>
             <a
-              href="../../components/FooterFolder/#scubaMask"
+              href="#toScubaMask"
               className="absolute -left-14 top-0 text-varLIGHTBLUEFEATHER hover:text-varLIGHTWING
                md:-left-28 lg:-left-40 xl:-left-60 "
             >
