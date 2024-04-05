@@ -26,7 +26,7 @@ const NavbarLinks = () => {
               className="text-blue-200 hover:text-varDARKBLUEFEATHER "
             >
               <div
-                className="dataToolTip1 Libre_Baskerville "
+                className="dataToolTip1 ml-[-8rem] Libre_Baskerville "
                 data-tool-tip="I am Brett, click here to visit my Website"
               >
                 <div className="inline-block rounded-xl border-[1px]  border-varLIGHTBLUEFEATHER">
@@ -35,7 +35,7 @@ const NavbarLinks = () => {
                       className="rounded-xl  border-[1px]  border-varLIGHTBLUEFEATHER
                                  p-2 hover:bg-black xxs:bg-gray-700"
                     >
-                      <span className="NavbarTitle1 Aclonica ">Intro</span>
+                      <span className="NavbarTitle1 Aclonica ">MyBaBB</span>
                     </div>
                   </div>
                 </div>
