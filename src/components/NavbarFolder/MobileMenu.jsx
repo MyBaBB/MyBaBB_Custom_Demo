@@ -31,7 +31,7 @@ const MobileMenu = () => {
               className="h2 transform-[translate(-50%, -50%)] relative 
                           left-1/2  top-[22px] m-0 mb-5
                           -translate-x-1/2 -translate-y-1/2 transform whitespace-nowrap 
-                          text-blue-200  sm:hidden xs:top-[27px] "
+                          text-blue-200  sm:hidden xs:top-[27px] z-50 "
               style={{
                 textShadow: "2px 2px 4px rgba(0, 0, 0, 1)",
               }}
@@ -54,16 +54,16 @@ const MobileMenu = () => {
         aria-label="mobile"
       >
         <p id="mobile-menu-2">
-          <a href="#hero" className="mobileMenuWords ">
-            Home
+          <a href="https://mybabb.github.io/My_Introduction/" className="mobileMenuWords ">
+            MyBaBB.com
           </a>
           <hr
             className="m-auto my-4
                              h-[3.5px] w-[50%] border-[1px] border-blue-400 border-l-transparent
                              border-r-transparent bg-yellow-950 "
           />
-          <a href="#AboutUs" className="w-full py-6 text-center">
-            <span className="mobileMenuWords">About Us</span>
+          <a href="https://mybabb.github.io/BrandingChute/" className="w-full py-6 text-center">
+            <span className="mobileMenuWords">Resume'</span>
           </a>
           <hr
             className="m-auto my-4
@@ -71,8 +71,19 @@ const MobileMenu = () => {
                              border-r-transparent bg-yellow-950 "
           />
           <a href="#YourBrand" className="mobileMenuWords">
-            <span className="mobileMenuWords">Your Brand</span>
+            <span className="mobileMenuWords">About</span>
           </a>
+          <hr
+            className="m-auto my-4
+                             h-[3.5px] w-[50%] border-[1px] border-blue-400 border-l-transparent 
+                             border-r-transparent bg-yellow-950 "
+          />
+          <a href="https://mybabb.github.io/BetterMcTransport/" className="w-full py-6 text-center">
+            <span className="mobileMenuWords">
+              <em>Basic Demo</em>
+            </span>
+          </a>
+          
           <hr
             className="m-auto my-4
                              h-[3.5px] w-[50%] border-[1px] border-blue-400 border-l-transparent
@@ -82,16 +93,16 @@ const MobileMenu = () => {
             href="https://mybabb.github.io/SEO-BEST_PRACTICES/"
             className="w-full py-6 text-center"
           >
-            <span className="mobileMenuWords ">SEO Booster</span>
+            <span className="mobileMenuWords ">SEO Page</span>
           </a>
           <hr
             className="m-auto my-4
                              h-[3.5px] w-[50%] border-[1px] border-blue-400 border-l-transparent 
                              border-r-transparent bg-yellow-950 "
           />
-          <a href="https://mybabb.com" className="w-full py-6 text-center">
+          <a href="https://mybabb.github.io/Franken-Timer/" className="w-full py-6 text-center">
             <span className="mobileMenuWords">
-              <em>MyBaBB.com</em>
+              <em>Special Event</em>
             </span>
           </a>
         </p>
