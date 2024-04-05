@@ -4,11 +4,11 @@ import "./App.css";
 import Navbar from "./components/NavbarFolder/Navbar";
 import Footer from "./components/FooterFolder/Footer";
  
-import SectionA from "./components/SectionsFolder/SectionA";
+import SectionA from "./components/SectionsFolder/Section-A";
 
 const App = () => {
   return (
-    // <div className="min-h-screen bg-varMEDSPACE dark:bg-black dark:text-white z-0">
+   
     <div >
       <Navbar />
       <SectionA />

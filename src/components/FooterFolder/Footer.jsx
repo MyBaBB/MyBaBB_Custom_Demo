@@ -3,6 +3,7 @@ import React from "react";
 import "./Footer.css";
 import "../NavbarFolder/NavbarLinks.css";
 import { MdOutlineScubaDiving } from "react-icons/md";
+import Copyright from "./Copyright";
 
 const Footer = () => {
   return (
@@ -142,6 +143,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
+      <Copyright />
     </div>
   );
 };
