@@ -57,7 +57,7 @@ const Navbar = () => {
                             xxs:border-varLIGHTBLUEFEATHER xxs:bg-gray-700"
             >
               <span
-                className="Aclonica w-fit  whitespace-nowrap text-[14px] 
+                className="Aclonica w-fit  whitespace-nowrap text-[12px] 
                            text-blue-200   xs:text-3xl"
               >
                 MyBabb Web Development

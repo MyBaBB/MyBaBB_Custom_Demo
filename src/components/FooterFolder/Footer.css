@@ -84,7 +84,7 @@
   height: 15px;
   position: absolute;
   padding: 0.1em 0.1em 0.2em 0.1em;
-  left: 6.5%;
+  left: 4rem;
   transform: translateX(-85%) scale(var(--scale));
   transform-origin: top center;
   transition: 0.25s;
