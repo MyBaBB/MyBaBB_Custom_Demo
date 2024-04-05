@@ -4,7 +4,7 @@ import MybabbLogo from "../../Assets/mybabb-327x119px.jpg";
 
 const Tester = () => {
   return (
-    <div className="flex h-screen items-center justify-center ">
+    <div className="flex h-screen items-center justify-center border-2 border-red-400">
       {/* xxxxxxxxxxxxxxx Logo on center of footer xxxxxxxxx */}
       <div
         className="footerCenterWrapper 
@@ -15,7 +15,7 @@ const Tester = () => {
           src={MybabbLogo}
           alt="MyBaBB Logo"
           width={250}
-          className="MyBabbLogo hidden rounded-full sm:block"
+          className="MyBabbLogo rounded-full"
         />
       </div>
     </div>

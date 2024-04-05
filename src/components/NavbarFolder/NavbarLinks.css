@@ -8,20 +8,21 @@
 }
 .dataToolTip1::before {
   content: "";
-  background-color: #412a32;
-  color: gainsboro;
+  background: radial-gradient(black, #492407);
+  color: #dbeafe;
   width: max-content;
   position: absolute;
   content: attr(data-tool-tip);
-  padding: 0.1em 0.1em 0.2em 0.1em;
+
   left: 50%;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: center;
   transition: ease-in 0.25s;
   bottom: -2.8rem;
-  border: 0.3px solid rgb(65 154 255);
+  background: radial-gradient(black, #492407);
   border-radius: 10px;
-  color: fff9d7;
+  padding-top: 3px;
+  padding-bottom: 3px;
   padding-left: 2rem;
   padding-right: 2rem;
   --scale: 0;
@@ -40,8 +41,8 @@
   transition: 0.25s;
   bottom: -0.75rem;
   border: 15px solid transparent;
-  border-bottom: #cfa69d 10px solid;
-  color: #fff9d7;
+  border-bottom: #492407 10px solid;
+
   --scale: 0;
   z-index: 2;
 }
@@ -56,20 +57,21 @@
 }
 .dataToolTip2::before {
   content: "";
-  color: gainsboro;
-  background-color: #412a32;
+  color: #dbeafe;
+  background: radial-gradient(black, #492407);
   width: max-content;
   position: absolute;
   content: attr(data-tool-tip);
-  padding: 0.1em 0.1em 0.2em 0.1em;
+
   left: 50%;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: top center;
   transition: ease-in 0.25s;
   bottom: -2.85rem;
-  border: 0.3px solid rgb(65 154 255);
+
   border-radius: 10px;
-  color: fff9d7;
+  padding-top: 3px;
+  padding-bottom: 3px;
   padding-left: 2rem;
   padding-right: 2rem;
   --scale: 0;
@@ -88,8 +90,8 @@
   transition: 0.25s;
   bottom: -0.75rem;
   border: 15px solid transparent;
-  border-bottom: #cfa69d 10px solid;
-  color: #fff9d7;
+  border-bottom: #492407 10px solid;
+
   --scale: 0;
   z-index: 2;
 }
@@ -103,20 +105,21 @@
 }
 .dataToolTip3::before {
   content: "";
-  background-color: #412a32;
-  color: gainsboro;
+  background: radial-gradient(black, #492407);
+  color: #dbeafe;
   width: max-content;
   position: absolute;
   content: attr(data-tool-tip);
-  padding: 0.1em 0.1em 0.2em 0.1em;
+
   left: 0;
   transform: translateX(-100%) scale(var(--scale));
   transform-origin: top left;
   transition: ease-in 0.25s;
   bottom: -2.85rem;
-  border: 0.3px solid rgb(65 154 255);
+  background: radial-gradient(black, #492407);
   border-radius: 10px;
-  color: fff9d7;
+  padding-top: 3px;
+  padding-bottom: 3px;
   padding-left: 2rem;
   padding-right: 2rem;
   --scale: 0;
@@ -136,8 +139,8 @@
   transition: 0.25s;
 
   border: 15px solid transparent;
-  border-bottom: #cfa69d 10px solid;
-  color: #fff9d7;
+  border-bottom: #492407 10px solid;
+
   --scale: 0;
   z-index: 1;
 }

@@ -6,33 +6,43 @@ import { MdOutlineScubaDiving } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="footerScreenWrapper relative bottom-0    h-fit ">
+    <div className="footerScreenWrapper relative     h-fit ">
       <div
         className="FooterWrapper relative m-auto mb-0 
-                   flex h-fit w-screen  bg-gradient-to-t
-                   from-[rgba(84,84,84,1)] to-gray-900 pt-2">
+                   flex h-fit w-screen  bg-gradient-to-b from-[#151a27] to-[#1a3a5f] pt-2"
+      >
         <div
           className="footerRightWrapper relative  m-auto   mx-2 mb-0 
                      h-[60px]   w-screen flex-col items-center justify-center 
-                       text-center text-red-300 ">
-          <nav className="footerNavWrapper ">
+                       text-center text-red-300 "
+        >
+          <nav className="footerXXWrapper ">
             <div className="footerUlWrapper  border-[.5px] border-transparent  ">
               <ul
                 className='footerListWrapper   xl:space-x-[18rem]" hidden space-x-[5rem]  pb-4  text-xl
-                             sm:block md:m-auto md:space-x-[9rem] lg:space-x-[14rem] '>
-                <li className="FooterListItem4 hidden w-fit
-                         border-[.5px] border-transparent sm:inline-block">
-                
+                             sm:block md:m-auto md:space-x-[9rem] lg:space-x-[14rem] '
+              >
+                <li
+                  className="FooterListItem4 hidden w-fit
+                         border-[.5px] border-transparent sm:inline-block"
+                >
                   <a
                     href="#YourBrand"
-                    className="text-blue-200 hover:text-varDARKBLUEFEATHER ">
-                    <div       className="dataToolTip12 Libre_Baskerville"
-                                 data-tool-tip="More Great Items">
-                      <div     className="mt-4 inline-block rounded-xl border-[1px] 
-                                        border-varLIGHTBLUEFEATHER">
-                        <div   className="rounded-xl   border-[2px]  border-black">
-                          <div className="rounded-xl  border-[1px]  border-varLIGHTBLUEFEATHER
-                                 p-2 hover:bg-black xxs:bg-gray-700">
+                    className="text-blue-200 hover:text-varDARKBLUEFEATHER "
+                  >
+                    <div
+                      className="dataToolTip12 Libre_Baskerville"
+                      data-tool-tip="More Great Items"
+                    >
+                      <div
+                        className="mt-4 inline-block rounded-xl border-[1px] 
+                                        border-varLIGHTBLUEFEATHER"
+                      >
+                        <div className="rounded-xl   border-[2px]  border-black">
+                          <div
+                            className="rounded-xl  border-[1px]  border-varLIGHTBLUEFEATHER
+                                 p-2 hover:bg-black xxs:bg-gray-700"
+                          >
                             <span className="NavbarTitle3 Aclonica text-[ rem] ">
                               Great Items
                             </span>
@@ -49,16 +59,21 @@ const Footer = () => {
                   {" "}
                   <a
                     href="#YourBrand"
-                    className="text-blue-200 hover:text-varDARKBLUEFEATHER ">
+                    className="text-blue-200 hover:text-varDARKBLUEFEATHER "
+                  >
                     <div
-                                className="dataToolTip12 Libre_Baskerville"
-                                   data-tool-tip="What About Good Stuff"
+                      className="dataToolTip12 Libre_Baskerville"
+                      data-tool-tip="What About Good Stuff"
                     >
-                      <div       className="inline-block rounded-xl border-[1px] 
-                                         border-varLIGHTBLUEFEATHER">
-                        <div     className="rounded-xl   border-[2px]  border-black">
-                          <div   className="rounded-xl  border-[1px]  border-varLIGHTBLUEFEATHER
-                                            p-2 hover:bg-black xxs:bg-gray-700">
+                      <div
+                        className="inline-block rounded-xl border-[1px] 
+                                         border-varLIGHTBLUEFEATHER"
+                      >
+                        <div className="rounded-xl   border-[2px]  border-black">
+                          <div
+                            className="rounded-xl  border-[1px]  border-varLIGHTBLUEFEATHER
+                                            p-2 hover:bg-black xxs:bg-gray-700"
+                          >
                             <span className="NavbarTitle3 Aclonica text-[ rem] ">
                               What About
                             </span>
@@ -70,19 +85,26 @@ const Footer = () => {
                 </li>
                 <li
                   className="FooterListItem6 hidden w-fit
-                         border-[.5px] border-transparent sm:inline-block">
+                         border-[.5px] border-transparent sm:inline-block"
+                >
                   {" "}
                   <a
                     href="#YourBrand"
-                            className="text-blue-200 hover:text-varDARKBLUEFEATHER ">
-                    <div    className="dataToolTip12 Libre_Baskerville"
-                                data-tool-tip="Put More Items here">
-                      <div  className="inline-block rounded-xl border-[1px] 
-                                      border-varLIGHTBLUEFEATHER">
+                    className="text-blue-200 hover:text-varDARKBLUEFEATHER "
+                  >
+                    <div
+                      className="dataToolTip12 Libre_Baskerville"
+                      data-tool-tip="Put More Items here"
+                    >
+                      <div
+                        className="inline-block rounded-xl border-[1px] 
+                                      border-varLIGHTBLUEFEATHER"
+                      >
                         <div className="rounded-xl   border-[2px]  border-black">
                           <div
-                             className="rounded-xl  border-[1px]  border-varLIGHTBLUEFEATHER
-                                        p-2 hover:bg-black xxs:bg-gray-700">
+                            className="rounded-xl  border-[1px]  border-varLIGHTBLUEFEATHER
+                                        p-2 hover:bg-black xxs:bg-gray-700"
+                          >
                             <span className="NavbarTitle3 Aclonica text-[rem] ">
                               More Items
                             </span>
@@ -97,16 +119,17 @@ const Footer = () => {
           </nav>
         </div>
         <div
-                       className="dataToolTip13 Libre_Baskerville"
-                       data-tool-tip="Back To Top">
+          className="dataToolTip13 Libre_Baskerville"
+          data-tool-tip="Back To Top"
+        >
           <a href="#">
             <div
               id="toScubaMask"
-                       className="absolute left-4 top-5 z-50 h-[fit] w-[fit] 
-                                  rounded-xl border-[1px] border-varLIGHTBLUEFEATHER ">
-              <div
-                       className="scubaManThird  rounded-xl  border-[2px] border-black">
-                <div   className="scubaManSecond rounded-xl border-[1px] border-varLIGHTBLUEFEATHER p-2 ">
+              className="absolute left-4 top-5 z-50 h-[fit] w-[fit] 
+                                  rounded-xl border-[1px] border-varLIGHTBLUEFEATHER "
+            >
+              <div className="scubaManThird  rounded-xl  border-[2px] border-black">
+                <div className="scubaManSecond rounded-xl border-[1px] border-varLIGHTBLUEFEATHER p-2 ">
                   <div className="scubaManFirst rotate-[240deg] border-transparent ">
                     <MdOutlineScubaDiving
                       size={25}

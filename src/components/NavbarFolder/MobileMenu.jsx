@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import "./MobileMenu.css";
+
 const MobileMenu = () => {
   return (
     <div
@@ -49,7 +50,7 @@ const MobileMenu = () => {
       {/* xxxxxxxxxxxxxxxx⬇️  Buttons on Hidden Mobile Menu  xxxxxxxxxxx */}
 
       <nav
-        className=" mt-[3.75rem] flex min-h-screen flex-col items-center"
+        className=" mt-[3.75rem] flex  flex-col items-center"
         aria-label="mobile"
       >
         <p id="mobile-menu-2">
@@ -93,8 +94,6 @@ const MobileMenu = () => {
               <em>MyBaBB.com</em>
             </span>
           </a>
-          <br />
-          <br />
         </p>
         {/* xxxxxxxxxxxxxxxx⬆️  Buttons on Hidden Mobile Menu  xxxxxxxxxxx */}
       </nav>

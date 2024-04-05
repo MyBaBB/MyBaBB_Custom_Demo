@@ -11,8 +11,8 @@
 }
 .dataToolTip12::before {
   content: "";
-  color: gainsboro;
-  background-color: #412a32;
+  color: #dbeafe;
+  background: radial-gradient(black, #492407);
   width: max-content;
   position: absolute;
   content: attr(data-tool-tip);
@@ -22,9 +22,9 @@
   transform-origin: bottom center;
   transition: ease-in 0.25s;
   bottom: 5.2rem;
-  border: 0.3px solid rgb(65 154 255);
+  border: 3px solid #492407;
   border-radius: 10px;
-  color: fff9d7;
+
   padding-left: 2rem;
   padding-right: 2rem;
   --scale: 0;
@@ -43,7 +43,7 @@
   transition: 0.25s;
   bottom: 2.45rem;
   border: 15px solid transparent;
-  border-top: #cfa69d 10px solid;
+  border-top: #492407 10px solid;
   color: #fff9d7;
   --scale: 0;
   z-index: 2;
@@ -57,8 +57,8 @@
 }
 .dataToolTip13::before {
   content: "";
-  background-color: #412a32;
-  color: gainsboro;
+  background: radial-gradient(black, #492407);
+  color: #dbeafe;
   width: max-content;
   position: absolute;
   content: attr(data-tool-tip);
@@ -68,9 +68,9 @@
   transform-origin: bottom left;
   transition: ease-in 0.25s;
   bottom: 6.75rem;
-  border: 0.3px solid rgb(65 154 255);
+  background: radial-gradient(black, #492407);
   border-radius: 10px;
-  color: fff9d7;
+
   padding-left: 2rem;
   padding-right: 2rem;
   --scale: 0;
@@ -90,7 +90,7 @@
   transition: 0.25s;
 
   border: 15px solid transparent;
-  border-top: #cfa69d 10px solid;
+  border-top: #492407 10px solid;
   color: #fff9d7;
   --scale: 0;
   z-index: 1;
