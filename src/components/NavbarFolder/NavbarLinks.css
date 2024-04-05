@@ -17,8 +17,8 @@
   left: 50%;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: center;
-  transition: ease-in 0.25s;
-  bottom: -2.8rem;
+  transition: ease-in 0.15s;
+  bottom: -3.8rem;
   background: radial-gradient(black, #492407);
   border-radius: 10px;
   padding-top: 3px;
@@ -39,7 +39,7 @@
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: bottom center;
   transition: 0.25s;
-  bottom: -0.75rem;
+  bottom: -1.75rem;
   border: 15px solid transparent;
   border-bottom: #492407 10px solid;
 
@@ -67,7 +67,7 @@
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: top center;
   transition: ease-in 0.25s;
-  bottom: -2.85rem;
+  bottom: -3.85rem;
 
   border-radius: 10px;
   padding-top: 3px;
@@ -88,7 +88,7 @@
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: bottom center;
   transition: 0.25s;
-  bottom: -0.75rem;
+  bottom: -1.75rem;
   border: 15px solid transparent;
   border-bottom: #492407 10px solid;
 
@@ -115,7 +115,7 @@
   transform: translateX(-100%) scale(var(--scale));
   transform-origin: top left;
   transition: ease-in 0.25s;
-  bottom: -2.85rem;
+  bottom: -3.85rem;
   background: radial-gradient(black, #492407);
   border-radius: 10px;
   padding-top: 3px;
@@ -128,7 +128,7 @@
 }
 .dataToolTip3::after {
   content: "";
-  top: 1.9rem;
+  top: 2.9rem;
   width: 15px;
   height: 15px;
   position: absolute;
