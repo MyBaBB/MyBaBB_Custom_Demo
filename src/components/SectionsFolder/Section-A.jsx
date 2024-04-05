@@ -1,24 +1,19 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react'
-import AquariumStand from '../AquariumFolder/AquariumStand'
+import React from "react";
+import AquariumStand from "../AquariumFolder/AquariumStand";
 
-import NewMe from '../../Assets/NewMe.png'
+import NewMe from "../../Assets/NewMe.png";
 const SectionA = () => {
   return (
-    <div className="flex min-h-[85vh] xl:h-[88vh]   items-center justify-center relative m-auto  
-                      w-full flex-col  text-center z-[-1]">
+    <div
+      className="relative z-[-1] m-auto   flex min-h-[85vh] w-full flex-col  
+                      items-center justify-center  text-center xl:h-[88vh]"
+    >
+      <img src={NewMe} alt="NewMe" className=" hidden sm:flex" />
 
-
-         <img src={NewMe} alt="NewMe"  className=' hidden sm:flex'/>               
-      
-       
-        <AquariumStand />
-        
-       
-        
-        
+      <AquariumStand />
     </div>
-  )
-}
+  );
+};
 
-export default SectionA
+export default SectionA;

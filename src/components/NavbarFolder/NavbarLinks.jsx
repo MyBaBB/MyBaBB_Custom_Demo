@@ -59,7 +59,9 @@ const NavbarLinks = () => {
                       className="rounded-xl  border-[1px]  border-varLIGHTBLUEFEATHER p-2
                                  hover:bg-black xxs:bg-gray-700"
                     >
-                      <span className="NavbarTitle2 Aclonica">Resume&apos;</span>
+                      <span className="NavbarTitle2 Aclonica">
+                        Resume&apos;
+                      </span>
                     </div>
                   </div>
                 </div>
