@@ -13,7 +13,7 @@ const MobileMenu = () => {
     >
       {/* xxxxxxxxxxxxxxxx⬆⬇️  Customized Websites Logo  xxxxxxxxxxx */}
       <div
-        className="mx-4 mt-16 rounded-xl border-[1px] border-varMEDBLUEFEATHER
+        className="mx-4 mt-18 rounded-xl border-[1px] border-varMEDBLUEFEATHER
                           border-l-transparent  border-r-transparent"
       >
         <div
@@ -55,7 +55,7 @@ const MobileMenu = () => {
       >
         <p id="mobile-menu-2">
           <a
-            href="https://mybabb.github.io/My_Introduction/"
+            href="https://mybabb.com"
             className="mobileMenuWords "
           >
             MyBaBB.com
@@ -66,7 +66,7 @@ const MobileMenu = () => {
                              border-r-transparent bg-yellow-950 "
           />
           <a
-            href="https://mybabb.github.io/BrandingChute/"
+            href="https://mybabb.github.io/My_Introduction/"
             className="w-full py-6 text-center"
           >
             <span className="mobileMenuWords">Resume&apos;</span>
@@ -76,7 +76,7 @@ const MobileMenu = () => {
                              h-[3.5px] w-[50%] border-[1px] border-blue-400 border-l-transparent
                              border-r-transparent bg-yellow-950 "
           />
-          <a href="#YourBrand" className="mobileMenuWords">
+          <a href="https://mybabb.github.io/BrandingChute/" className="mobileMenuWords">
             <span className="mobileMenuWords">About</span>
           </a>
           <hr

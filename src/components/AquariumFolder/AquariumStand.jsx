@@ -40,7 +40,7 @@ const AquariumStand = () => {
       <img
         src={MybabbLogo}
         alt=" MybabbLogo"
-        className="fixed top-[38rem] my-4 max-w-[250px] rounded-full sm:hidden"
+        className="fixed top-[38rem] my-4 max-w-[175px] rounded-full sm:hidden"
       />
     </div>
   );
