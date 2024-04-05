@@ -7,7 +7,7 @@ import Copyright from "./Copyright";
 
 const Footer = () => {
   return (
-    <div className="footerScreenWrapper relative     h-fit ">
+    <div className="footerScreenWrapper relative hidden sm:block    h-fit ">
       <div
         className="FooterWrapper relative m-auto mb-0 
                    flex h-fit w-screen  bg-gradient-to-b from-[#151a27] to-[#1a3a5f] pt-2"
