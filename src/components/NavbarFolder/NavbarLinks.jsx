@@ -22,12 +22,12 @@ const NavbarLinks = () => {
             aria-label="main"
           >
             <a
-              href="#AboutUs"
+              href="https://mybabb.com"
               className="text-blue-200 hover:text-varDARKBLUEFEATHER "
             >
               <div
                 className="dataToolTip1 Libre_Baskerville "
-                data-tool-tip="I Make A Landing Page with Appeal and SEO Performance"
+                data-tool-tip="I am Brett, click here to visit my Website"
               >
                 <div className="inline-block rounded-xl border-[1px]  border-varLIGHTBLUEFEATHER">
                   <div className="rounded-xl   border-[2px]  border-black">
@@ -35,7 +35,7 @@ const NavbarLinks = () => {
                       className="rounded-xl  border-[1px]  border-varLIGHTBLUEFEATHER
                                  p-2 hover:bg-black xxs:bg-gray-700"
                     >
-                      <span className="NavbarTitle1 Aclonica ">About Us</span>
+                      <span className="NavbarTitle1 Aclonica ">Intro</span>
                     </div>
                   </div>
                 </div>
@@ -43,12 +43,12 @@ const NavbarLinks = () => {
             </a>
 
             <a
-              href="#improveSEO"
+              href="https://mybabb.github.io/My_Introduction/"
               className="text-blue-200 hover:text-varDARKBLUEFEATHER "
             >
               <div
                 className="dataToolTip2 Libre_Baskerville"
-                data-tool-tip="With Precision Coding Practices"
+                data-tool-tip="Click here to see my Skills"
               >
                 <div
                   className="inline-block rounded-xl  
@@ -59,7 +59,7 @@ const NavbarLinks = () => {
                       className="rounded-xl  border-[1px]  border-varLIGHTBLUEFEATHER p-2
                                  hover:bg-black xxs:bg-gray-700"
                     >
-                      <span className="NavbarTitle2 Aclonica">Improve SEO</span>
+                      <span className="NavbarTitle2 Aclonica">Resume&apos;</span>
                     </div>
                   </div>
                 </div>
@@ -67,12 +67,12 @@ const NavbarLinks = () => {
             </a>
 
             <a
-              href="#YourBrand"
+              href="https://mybabb.github.io/BrandingChute/"
               className="text-blue-200 hover:text-varDARKBLUEFEATHER "
             >
               <div
                 className="dataToolTip2 Libre_Baskerville"
-                data-tool-tip="Refine Your Brand"
+                data-tool-tip="Click here if you dare"
               >
                 <div
                   className="inline-block rounded-xl border-[1px] 
@@ -83,7 +83,7 @@ const NavbarLinks = () => {
                       className="rounded-xl  border-[1px]  border-varLIGHTBLUEFEATHER
                                  p-2 hover:bg-black xxs:bg-gray-700"
                     >
-                      <span className="NavbarTitle3 Aclonica">Your Brand</span>
+                      <span className="NavbarTitle3 Aclonica">About</span>
                     </div>
                   </div>
                 </div>

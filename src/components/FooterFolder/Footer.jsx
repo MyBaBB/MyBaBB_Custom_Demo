@@ -27,12 +27,12 @@ const Footer = () => {
                          border-[.5px] border-transparent sm:inline-block"
                 >
                   <a
-                    href="#YourBrand"
+                    href="https://mybabb.github.io/BetterMcTransport/"
                     className="text-blue-200 hover:text-varDARKBLUEFEATHER "
                   >
                     <div
                       className="dataToolTip12 Libre_Baskerville"
-                      data-tool-tip="More Great Items"
+                      data-tool-tip="Example of a Basic Landing Page"
                     >
                       <div
                         className="mt-4 inline-block rounded-xl border-[1px] 
@@ -44,7 +44,7 @@ const Footer = () => {
                                  p-2 hover:bg-black xxs:bg-gray-700"
                           >
                             <span className="NavbarTitle3 Aclonica text-[ rem] ">
-                              Great Items
+                              Basic Page
                             </span>
                           </div>
                         </div>
@@ -58,12 +58,12 @@ const Footer = () => {
                 >
                   {" "}
                   <a
-                    href="#YourBrand"
+                    href="https://mybabb.github.io/SEO-BEST_PRACTICES/"
                     className="text-blue-200 hover:text-varDARKBLUEFEATHER "
                   >
                     <div
                       className="dataToolTip12 Libre_Baskerville"
-                      data-tool-tip="What About Good Stuff"
+                      data-tool-tip="This Tells about SEO and Why it is Important"
                     >
                       <div
                         className="inline-block rounded-xl border-[1px] 
@@ -75,7 +75,7 @@ const Footer = () => {
                                             p-2 hover:bg-black xxs:bg-gray-700"
                           >
                             <span className="NavbarTitle3 Aclonica text-[ rem] ">
-                              What About
+                            SEO Page
                             </span>
                           </div>
                         </div>
@@ -89,12 +89,12 @@ const Footer = () => {
                 >
                   {" "}
                   <a
-                    href="#YourBrand"
+                    href="https://mybabb.github.io/Franken-Timer/"
                     className="text-blue-200 hover:text-varDARKBLUEFEATHER "
                   >
                     <div
                       className="dataToolTip12 Libre_Baskerville"
-                      data-tool-tip="Put More Items here"
+                      data-tool-tip="Super Holiday Timer"
                     >
                       <div
                         className="inline-block rounded-xl border-[1px] 
@@ -106,7 +106,7 @@ const Footer = () => {
                                         p-2 hover:bg-black xxs:bg-gray-700"
                           >
                             <span className="NavbarTitle3 Aclonica text-[rem] ">
-                              More Items
+                             Special Event
                             </span>
                           </div>
                         </div>
