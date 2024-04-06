@@ -5,7 +5,7 @@ function Copyright() {
   return (
     <div>
       <p className="fixed bottom-12 right-5 whitespace-nowrap text-xs">
-        <span className="Change z-0 text-[7px] text-varBoneWhite sm:text-[9px] dark:text-varLIGHTWING">
+        <span className="Changa z-0 text-[7px] text-varBoneWhite sm:text-[9px] dark:text-varLIGHTWING">
           &lt;&lt;&lt;&copy;MyBaBB <em>5-2024</em>&gt;&gt;&gt;
         </span>
       </p>
