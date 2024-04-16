@@ -76,7 +76,7 @@ const MobileMenu = () => {
                              h-[3.5px] w-[50%] border-[1px] border-blue-400 border-l-transparent
                              border-r-transparent bg-yellow-950 "
           />
-          <a href="https://mybabb.github.io/BrandingChute/" className="mobileMenuWords">
+          <a href="https://mybabb.github.io/About_MyBaBB/" className="mobileMenuWords">
             <span className="mobileMenuWords">About</span>
           </a>
           <hr

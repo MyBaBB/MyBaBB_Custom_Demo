@@ -69,7 +69,7 @@ const NavbarLinks = () => {
             </a>
 
             <a
-              href="https://mybabb.github.io/BrandingChute/"
+              href="https://mybabb.github.io/About_MyBaBB/"
               className="text-blue-200 hover:text-varDARKBLUEFEATHER "
             >
               <div
